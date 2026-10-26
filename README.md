@@ -20,12 +20,42 @@ A Windows clipboard dock for screenshots, screen recordings, files and text snip
 - **两种风格**：Windows 11 Fluent 风与 iOS/mac 风（功能相同，视觉不同）
 - **纯本地**：无账号、无服务器、无数据上传；设置保存在本机
 
+## 界面截图
+
+主界面（三条泳道：截图 / 文件 / 文本，Ctrl+V 自动分拣）：
+
+![主界面](docs/screenshots/01-main.png)
+
+深色模式 + 玫瑰主题色（整窗联动染色）：
+
+![深色玫瑰](docs/screenshots/02-dark-rose.png)
+
+外观与字体（主题模式、8 种主题色、卡片大小、系统字体）：
+
+![外观与字体](docs/screenshots/03-settings-appearance.png)
+
+25 种语言，点卡片即换：
+
+![语言](docs/screenshots/04-settings-language.png)
+
+截图与录屏设置（另存目录、录屏位置、自定义快捷键按压录入）：
+
+![截图与录屏](docs/screenshots/05-settings-capture.png)
+
+iOS / mac 风格版（功能相同，毛玻璃视觉）：
+
+![iOS 风格版](docs/screenshots/06-ios-main.png)
+
+## 用户指南
+
+每个功能的详细用法见 [USER_GUIDE.md](USER_GUIDE.md)。
+
 ## 下载
 
 到 [Releases](../../releases) 下载：
 
-- `Clipa-完整版.exe`（约 79 MB）：自带 .NET 运行时，下载即用
-- `Clipa.exe`（约 28 MB）：轻量版，需要系统装有 .NET 8 Desktop Runtime
+- `Clipa-Full.exe`（完整版，约 79 MB）：自带 .NET 运行时，下载即用
+- `Clipa-Lite.exe`（轻量版，约 28 MB）：需要系统装有 .NET 8 Desktop Runtime
 
 未签名，首次运行如遇 SmartScreen 提示，点「更多信息 → 仍要运行」。
 
