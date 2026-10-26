@@ -1,10 +1,12 @@
-# Clipa
+<p align="center">
+  <img src="logo.png" width="128" alt="Clipa">
+</p>
 
-Windows 桌面剪贴站：截图、录屏、文件与文本的临时收纳面板，常驻屏幕顶部，鼠标碰一下刘海就展开。
+<h1 align="center">Clipa</h1>
 
-A Windows clipboard dock for screenshots, screen recordings, files and text snippets — parked at the top edge of your screen, always one hover away.
+<p align="center">Windows 桌面剪贴站：截图、录屏、文件与文本的临时收纳面板，常驻屏幕顶部，鼠标碰一下刘海就展开。</p>
 
-![Clipa logo](logo.png)
+<p align="center">A Windows clipboard dock for screenshots, screen recordings, files and text snippets — parked at the top edge of your screen, always one hover away.</p>
 
 ## 功能
 
@@ -17,7 +19,6 @@ A Windows clipboard dock for screenshots, screen recordings, files and text snip
 - **全局快捷键**：默认 Alt+D 截图，可在设置里按自己的组合键自定义（按下即录入）
 - **主题与字体**：8 种主题色整窗联动染色、跟随系统 / 浅色 / 深色、任意系统字体
 - **25 种语言**：简体中文、繁體中文、English、日本語、한국어、Русский、Español、Português、Français、Deutsch、Italiano、Nederlands、Polski、Svenska、Türkçe、Ελληνικά、Українська、Tiếng Việt、Bahasa Melayu、Bahasa Indonesia、हिन्दी、ไทย、العربية、فارسی、עברית
-- **两种风格**：Windows 11 Fluent 风与 iOS/mac 风（功能相同，视觉不同）
 - **纯本地**：无账号、无服务器、无数据上传；设置保存在本机
 
 ## 界面截图
@@ -42,9 +43,6 @@ A Windows clipboard dock for screenshots, screen recordings, files and text snip
 
 ![截图与录屏](docs/screenshots/05-settings-capture.png)
 
-iOS / mac 风格版（功能相同，毛玻璃视觉）：
-
-![iOS 风格版](docs/screenshots/06-ios-main.png)
 
 ## 用户指南
 

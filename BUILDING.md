@@ -5,7 +5,6 @@ Clipa 不是把网页套壳：界面是一个单文件 HTML，原生能力（截
 ## 目录
 
 - `app/Clipa.html` — Fluent 风格界面（主版本）
-- `app/Clipa-iOS.html` — iOS/mac 风格界面（与主版本功能完全一致，仅视觉层不同）
 - `host/Program.cs` — 宿主全部源码（WinForms + WebView2 + ZXing.Net）
 - `host/MuseClipStation.csproj` — 项目文件（程序集名等内部标识保持 `MuseClipStation`，是数据目录与兼容性所需，不要改名）
 - `host/app.ico` — 应用图标
@@ -17,7 +16,7 @@ Clipa 不是把网页套壳：界面是一个单文件 HTML，原生能力（截
 
 ```bash
 # 1. 选择风格，把页面放进宿主目录并改名为 app.html（宿主把它作为嵌入资源打包）
-cp app/Clipa.html host/app.html        # 或 app/Clipa-iOS.html
+cp app/Clipa.html host/app.html
 
 # 2. 完整版（自包含运行时，约 79 MB）
 cd host
@@ -30,10 +29,6 @@ python3 patch_lang.py publish-lite/MuseClipStation.exe
 ```
 
 产物改名为 `Clipa-完整版.exe` / `Clipa.exe` 后分发。体积自检：完整版应约 79 MB；若只有十几 MB，说明打成了资源缺失的包，运行会无界面。
-
-## 打包 iOS 风格版时注意
-
-两版若装在同一台机器上，需要隔离数据目录、程序集名与自启注册表名（改为 `ClipaIOS`），否则会互相覆盖窗口位置与设置。
 
 ## 桥协议（摘要）
 
